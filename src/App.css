@@ -1,0 +1,65 @@
+body {
+  background-color: #e3f2fd;
+}
+.container {
+  background-color: white;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+.container p {
+  font-size: 32px;
+  background-color: #64b5f6;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+#addbtn:hover {
+  background-color: #00e676;
+  color: white;
+}
+
+#delbtn {
+  color: red;
+  position: absolute;
+  right: 560px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+}
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #2196f3;
+}
+
+ul {
+  list-style: none;
+}
+
+.tasklist li {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.tasklist {
+  display: flex;
+  margin: 10px 30px 10px 30px;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+.taskinput {
+  display: flex;
+  justify-content: center;
+}
